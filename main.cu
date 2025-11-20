@@ -464,7 +464,7 @@ bool run_with_bloom_filter(const char* min, const char* max, const char* bloom_f
     int total_threads = blocks * threads;
     int found_flag;
     
-    uint64_t keys_per_kernel = (uint64_t)blocks * threads * BATCH_SIZE;
+    uint64_t keys_per_kernel = (uint64_t)blocks * threads * (BATCH_SIZE * 2);
     
     printf("\n=== Search Configuration ===\n");
     printf("Range Min: %s\n", min);
