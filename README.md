@@ -1,38 +1,21 @@
-This is my own Hand-Made project
+1) Create a BloomFile from your addrs.txt
 
-This program searches for Bitcoin Puzzles on any range
+`python bloom.py create addrs.txt addrs.bin --size 300` - the higher the size, the less false positives
 
-THIS IS PURE TRUE UNBIASED RANDOM, with real speed, not fake
+2) Check if cuda finds the hashes160 by running
 
-it uses a Cuda specialized random distribution that is Curand + CPU crypto secure random combined and millions of threads, no overlaps
+`main.exe test addrs.bin 29a78213caa9eea824acf08022ab9dfc83414f56` - verify puzzle 21 hash is there\
+`main.exe test addrs.bin 4e15e5189752d1eaf444dfd6bff399feb0443977` - verify puzzle 33 hash is there\
 
-it has a very good random distribution that is carefully tested
+3) Run the search
 
-tough the range is huge, but with a good GPU hardware this program can be very useful
+`main.exe 100000 1fffff addrs.bin` - search for puzzle 21\
+`main.exe 100000000 1ffffffff addrs.bin` - search for puzzle 33\
 
-Run (dont include puzzle number in the command, its just for info):
 
-`main.exe 100000 1fffff 29a78213caa9eea824acf08022ab9dfc83414f56` - puzzle 21\
-`main.exe 1000000 1ffffff 2f396b29b27324300d0c59b17c3abc1835bd3dbb` - puzzle 25\
-`main.exe 10000000 1fffffff 5a416cc9148f4a377b672c8ae5d3287adaafadec` - puzzle 29\
-`main.exe 20000000 3fffffff d39c4704664e1deb76c9331e637564c257d68a08` - puzzle 30\
-`main.exe 100000000 1ffffffff 4e15e5189752d1eaf444dfd6bff399feb0443977` - puzzle 33\
-`main.exe 200000000 3ffffffff f6d67d7983bf70450f295c9cb828daab265f1bfa` - puzzle 34\
-`main.exe 1000000000000000000 1ffffffffffffffffff 105b7f253f0ebd7843adaebbd805c944bfb863e4` - puzzle 73
+4) Run The global search for any BTC
 
-you can convert any bitcoin address to hash160 using this site: https://cointools.org/address-to-hash
-
-just in case if you will edit this code further, you can compile it with the command:
-
-`nvcc -o main main.cu`
-
-also in secp256k1.cuh there are few parameters at top of the file:
-
-`#define BIGINT_WORDS 8` - this one should stay as it is, cause 8 is required for 64 hex\
-`#define WINDOW_SIZE 14` - this higher it is the more memory is required and the more loading time it will be before the start\
-`#define NUM_BASE_POINTS 64` - its better not to change this, tough the less it is the less bits it can process for the correct hash160\
-`#define BATCH_SIZE 64` - this one defined how deep the algorithm will search, if random defines X and Y coordinates, then this defines how deep it will go through Z coordinate\
-`#define MOD_EXP 5` - this one affects the most heavy function, that is exponential calculation, the higher the faster it should be, but requires more memory, usually its 4,5,6
+`main.exe 1 ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff addrs.bin` - will randomize a private key from 1 to ffffffffff...
 
 in case if this was useful to you, can you please donate BTC:
 
