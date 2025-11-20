@@ -232,10 +232,10 @@ __device__ void generate_random_in_range(BigInt* result, curandStatePhilox4_32_1
 
 __constant__ BigInt d_min_bigint;
 __constant__ BigInt d_max_bigint;
-
 __device__ volatile int g_found = 0;
 __device__ char g_found_hex[65] = {0};
 __device__ char g_found_hash160[41] = {0};
+__device__ uint8_t g_found_type = 0; 
 
 __global__ void start(uint64_t seed, uint8_t* bloom_filter, uint64_t bloom_size_bytes)
 {
@@ -247,7 +247,9 @@ __global__ void start(uint64_t seed, uint8_t* bloom_filter, uint64_t bloom_size_
     BigInt priv_base;
     BigInt priv_current;
     ECPointJac result_jac_batch[BATCH_SIZE];
-    uint8_t hash160_batch[BATCH_SIZE][20];
+    uint8_t hash160_compressed[BATCH_SIZE][20];
+    uint8_t hash160_uncompressed[BATCH_SIZE][20];
+    
     generate_random_in_range(&priv_base, &state, &d_min_bigint, &d_max_bigint);
     
     scalar_multiply_multi_base_jac(&result_jac_batch[0], &priv_base);
@@ -256,12 +258,13 @@ __global__ void start(uint64_t seed, uint8_t* bloom_filter, uint64_t bloom_size_
         add_G_to_point_jac(&result_jac_batch[i], &result_jac_batch[i-1]);
     }
     
-    jacobian_batch_to_hash160(result_jac_batch, hash160_batch);
+    
+    jacobian_batch_to_hash160(result_jac_batch, hash160_compressed);
+    jacobian_batch_to_hash160_uncompressed(result_jac_batch, hash160_uncompressed);
+    
     
     for (int i = 0; i < BATCH_SIZE; ++i) {
-        
-        if (bloom_check(bloom_filter, bloom_size_bytes, hash160_batch[i])) {
-            
+        if (bloom_check(bloom_filter, bloom_size_bytes, hash160_compressed[i])) {
             if (atomicCAS((int*)&g_found, 0, 1) == 0) {
                 priv_current = priv_base;
                 for (int j = 0; j < i; ++j) {
@@ -269,12 +272,30 @@ __global__ void start(uint64_t seed, uint8_t* bloom_filter, uint64_t bloom_size_
                 }
                 
                 bigint_to_hex(&priv_current, g_found_hex);
-                hash160_to_hex(hash160_batch[i], g_found_hash160);
+                hash160_to_hex(hash160_compressed[i], g_found_hash160);
+                g_found_type = 0; 
             }
+            return; 
+        }
+    }
+    
+    
+    for (int i = 0; i < BATCH_SIZE; ++i) {
+        if (bloom_check(bloom_filter, bloom_size_bytes, hash160_uncompressed[i])) {
+            if (atomicCAS((int*)&g_found, 0, 1) == 0) {
+                priv_current = priv_base;
+                for (int j = 0; j < i; ++j) {
+                    bigint_increment(&priv_current);
+                }
+                
+                bigint_to_hex(&priv_current, g_found_hex);
+                hash160_to_hex(hash160_uncompressed[i], g_found_hash160);
+                g_found_type = 1; 
+            }
+            return; 
         }
     }
 }
-
 
 bool load_bloom_filter(const char* filename, uint8_t** bloom_filter_host, uint8_t** bloom_filter_device, size_t* bloom_size) {
     printf("Opening bloom filter file: %s\n", filename);

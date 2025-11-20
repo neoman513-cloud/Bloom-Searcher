@@ -1490,6 +1490,122 @@ __device__ __forceinline__ void scalar_multiply_multi_base_jac(ECPointJac *resul
         }
     }
 }
+
+__device__ void jacobian_batch_to_hash160_uncompressed(const ECPointJac points[BATCH_SIZE], uint8_t hash160_out[BATCH_SIZE][20]) {
+    
+    bool is_valid[BATCH_SIZE];
+    uint8_t valid_indices[BATCH_SIZE];
+    uint8_t valid_count = 0;
+    
+    
+    for (int i = 0; i < BATCH_SIZE; i++) {
+        uint32_t z_check;
+        
+        
+        uint4 z_vec0 = *((uint4*)&points[i].Z.data[0]);
+        uint4 z_vec1 = *((uint4*)&points[i].Z.data[4]);
+        
+        
+        asm("{\n\t"
+            ".reg .u32 t0, t1, t2, t3;\n\t"
+            "or.b32 t0, %1, %2;\n\t"
+            "or.b32 t1, %3, %4;\n\t"
+            "or.b32 t2, %5, %6;\n\t"
+            "or.b32 t3, %7, %8;\n\t"
+            "or.b32 t0, t0, t1;\n\t"
+            "or.b32 t2, t2, t3;\n\t"
+            "or.b32 %0, t0, t2;\n\t"
+            "}"
+            : "=r"(z_check)
+            : "r"(z_vec0.x), "r"(z_vec0.y), "r"(z_vec0.z), "r"(z_vec0.w),
+              "r"(z_vec1.x), "r"(z_vec1.y), "r"(z_vec1.z), "r"(z_vec1.w));
+        
+        is_valid[i] = (!points[i].infinity) && (z_check != 0);
+        
+        if (!is_valid[i]) {
+            
+            uint4* zero_ptr = (uint4*)hash160_out[i];
+            zero_ptr[0] = make_uint4(0, 0, 0, 0);
+            zero_ptr[1] = make_uint4(0, 0, 0, 0);
+            *((uint32_t*)(hash160_out[i] + 16)) = 0;
+        } else {
+            valid_indices[valid_count++] = i;
+        }
+    }
+    
+    if (valid_count == 0) return;
+    
+    
+    BigInt products[BATCH_SIZE];
+    BigInt inverses[BATCH_SIZE];
+    
+    copy_bigint(&products[0], &points[valid_indices[0]].Z);
+    
+    
+    for (int i = 1; i < valid_count; i++) {
+        mul_mod_device(&products[i], &products[i-1], &points[valid_indices[i]].Z);
+    }
+    
+    
+    BigInt current_inv;
+    mod_inverse(&current_inv, &products[valid_count - 1]);
+    
+    
+    for (int i = valid_count - 1; i > 0; i--) {
+        mul_mod_device(&inverses[i], &current_inv, &products[i-1]);
+        mul_mod_device(&current_inv, &current_inv, &points[valid_indices[i]].Z);
+    }
+    copy_bigint(&inverses[0], &current_inv);
+    
+    
+    for (int v = 0; v < valid_count; v++) {
+        uint8_t idx = valid_indices[v];
+        
+        
+        BigInt Zinv2, Zinv3;
+        mul_mod_device(&Zinv2, &inverses[v], &inverses[v]);
+        mul_mod_device(&Zinv3, &Zinv2, &inverses[v]);
+        
+        
+        BigInt x_affine, y_affine;
+        mul_mod_device(&x_affine, &points[idx].X, &Zinv2);
+        mul_mod_device(&y_affine, &points[idx].Y, &Zinv3);
+        
+        
+        uint8_t pubkey[65];
+        pubkey[0] = 0x04;
+        
+        uint32_t* x_data = x_affine.data;
+        uint32_t* y_data = y_affine.data;
+        
+        
+        for (int j = 0; j < 8; j++) {
+            uint32_t word = x_data[7 - j];
+            uint32_t swapped;
+            
+            
+            asm("prmt.b32 %0, %1, 0, 0x0123;" : "=r"(swapped) : "r"(word));
+            
+            
+            *((uint32_t*)&pubkey[1 + j * 4]) = swapped;
+        }
+        
+        
+        for (int j = 0; j < 8; j++) {
+            uint32_t word = y_data[7 - j];
+            uint32_t swapped;
+            
+            
+            asm("prmt.b32 %0, %1, 0, 0x0123;" : "=r"(swapped) : "r"(word));
+            
+            
+            *((uint32_t*)&pubkey[33 + j * 4]) = swapped;
+        }
+        
+        
+        hash160(pubkey, 65, hash160_out[idx]);
+    }
+}
 __device__ void jacobian_batch_to_hash160(const ECPointJac points[BATCH_SIZE], uint8_t hash160_out[BATCH_SIZE][20]) {
     
     bool is_valid[BATCH_SIZE];
