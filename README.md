@@ -1,5 +1,7 @@
 THIS IS A RANDOM SEARCH GPU PROGRAM FOR BLOOMFILE
 
+(actually is a remake of https://github.com/neoman513-cloud/Bitcoin-Puzzle-Destroyer)
+
 you can download the list of all funded BTC addresses here http://addresses.loyce.club/
 
 then by using python bloom.py convert it from .txt to .bin - that will be used in this program
