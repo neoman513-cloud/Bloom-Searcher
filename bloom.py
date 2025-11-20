@@ -26,23 +26,57 @@ def fnv_hash(data: bytes, seed: int) -> int:
     return h
 
 def address_to_hash160(address: str) -> bytes | None:
-    """Convert Bitcoin address to 20-byte hash160"""
+    """
+    Convert Bitcoin address to 20-byte hash160
+    Supports: P2PKH (1...), P2SH (3...), P2WPKH (bc1q...)
+    Note: P2WSH and Taproot addresses are 32 bytes and will be rejected
+    """
     try:
+        # Legacy addresses (P2PKH and P2SH)
         if address.startswith('1') or address.startswith('3'):
             decoded = base58.b58decode_check(address)
-            return decoded[1:]
+            hash_data = decoded[1:]  # Skip version byte
+            
+            if len(hash_data) != 20:
+                print(f"Warning: {address} - Expected 20 bytes, got {len(hash_data)}")
+                return None
+            return hash_data
+        
+        # Bech32/SegWit addresses
         elif address.startswith('bc1'):
             hrp, data = bech32.bech32_decode(address)
-            if data is None:
+            if data is None or hrp != 'bc':
+                print(f"Warning: {address} - Invalid bech32 format")
                 return None
-            decoded = bech32.convertbits(data[1:], 5, 8, False)
-            if decoded is None:
+            
+            # data[0] is witness version, rest is the program
+            witness_version = data[0]
+            witness_program = bech32.convertbits(data[1:], 5, 8, False)
+            
+            if witness_program is None:
+                print(f"Warning: {address} - Failed to decode witness program")
                 return None
-            return bytes(decoded)
+            
+            witness_bytes = bytes(witness_program)
+            
+            # Only accept 20-byte hashes (P2WPKH)
+            # Reject 32-byte hashes (P2WSH, Taproot)
+            if len(witness_bytes) == 20:
+                if witness_version != 0:
+                    print(f"Warning: {address} - Unexpected witness version {witness_version} with 20-byte program")
+                return witness_bytes
+            elif len(witness_bytes) == 32:
+                print(f"Info: {address} - Skipping 32-byte witness program (P2WSH or Taproot)")
+                return None
+            else:
+                print(f"Warning: {address} - Unexpected witness program length: {len(witness_bytes)} bytes")
+                return None
         else:
+            print(f"Warning: {address} - Unknown address type")
             return None
+            
     except Exception as e:
-        print(f"Error decoding address: {e}")
+        print(f"Error decoding {address}: {e}")
         return None
 
 def load_addresses_from_file(filename: str) -> list[str]:
