@@ -1110,96 +1110,124 @@ __device__ __forceinline__ uint32_t sigma0(uint32_t x) {
 __device__ __forceinline__ uint32_t sigma1(uint32_t x) {
     return rotr(x, 17) ^ rotr(x, 19) ^ (x >> 10);
 }
+__device__ __forceinline__ void sha256_transform(uint32_t state[8], const uint8_t block[64]) {
+    uint32_t w[64];
+    
+    
+    for (int i = 0; i < 16; i++) {
+        w[i] = ((uint32_t)block[i*4] << 24) |
+               ((uint32_t)block[i*4+1] << 16) |
+               ((uint32_t)block[i*4+2] << 8) |
+               ((uint32_t)block[i*4+3]);
+    }
+    
+    for (int i = 16; i < 64; i++) {
+        uint32_t s0 = rotr(w[i-15], 7) ^ rotr(w[i-15], 18) ^ (w[i-15] >> 3);
+        uint32_t s1 = rotr(w[i-2], 17) ^ rotr(w[i-2], 19) ^ (w[i-2] >> 10);
+        w[i] = w[i-16] + s0 + w[i-7] + s1;
+    }
+    
+    
+    uint32_t a = state[0], b = state[1], c = state[2], d = state[3];
+    uint32_t e = state[4], f = state[5], g = state[6], h = state[7];
+    
+    
+    for (int i = 0; i < 64; i++) {
+        uint32_t S1 = Sigma1(e);
+        uint32_t ch = Ch(e, f, g);
+        uint32_t temp1 = h + S1 + ch + c_K[i] + w[i];
+        uint32_t S0 = Sigma0(a);
+        uint32_t maj = Maj(a, b, c);
+        uint32_t temp2 = S0 + maj;
+        
+        h = g;
+        g = f;
+        f = e;
+        e = d + temp1;
+        d = c;
+        c = b;
+        b = a;
+        a = temp1 + temp2;
+    }
+    
+    
+    state[0] += a;
+    state[1] += b;
+    state[2] += c;
+    state[3] += d;
+    state[4] += e;
+    state[5] += f;
+    state[6] += g;
+    state[7] += h;
+}
 
 __device__ __forceinline__ void sha256(const uint8_t* data, int len, uint8_t hash[32]) {
     
-    uint32_t h0 = 0x6a09e667ul;
-    uint32_t h1 = 0xbb67ae85ul;
-    uint32_t h2 = 0x3c6ef372ul;
-    uint32_t h3 = 0xa54ff53aul;
-    uint32_t h4 = 0x510e527ful;
-    uint32_t h5 = 0x9b05688cul;
-    uint32_t h6 = 0x1f83d9abul;
-    uint32_t h7 = 0x5be0cd19ul;
-
-    uint32_t a = h0;
-    uint32_t b = h1;
-    uint32_t c = h2;
-    uint32_t d = h3;
-    uint32_t e = h4;
-    uint32_t f = h5;
-    uint32_t g = h6;
-    uint32_t h = h7;
-
-    uint32_t w[16];
-
-    for (int i = 0; i < 16; i++) {
-        int off = i * 4;
-        uint32_t val = 0;
-        
-        if (off < len) val |= ((uint32_t)data[off]) << 24;
-        if (off + 1 < len) val |= ((uint32_t)data[off + 1]) << 16;
-        if (off + 2 < len) val |= ((uint32_t)data[off + 2]) << 8;
-        if (off + 3 < len) val |= ((uint32_t)data[off + 3]);
-        
-        if (off <= len && len < off + 4) {
-            int pad_pos = len - off;
-            val |= 0x80u << (24 - pad_pos * 8);
-        }
-        
-        if (i == 14) {
-            val = 0;
-        }
-        if (i == 15) {
-            val = len * 8;
-        }
-        
-        w[i] = val;
+    uint32_t state[8] = {
+        0x6a09e667, 0xbb67ae85, 0x3c6ef372, 0xa54ff53a,
+        0x510e527f, 0x9b05688c, 0x1f83d9ab, 0x5be0cd19
+    };
+    
+    uint8_t block[64];
+    int pos = 0;
+    
+    
+    while (pos + 64 <= len) {
+        sha256_transform(state, data + pos);
+        pos += 64;
     }
-
-    #define ROUND(wi, ki) { \
-        uint32_t t1 = h + Sigma1(e) + Ch(e, f, g) + ki + wi; \
-        uint32_t t2 = Sigma0(a) + Maj(a, b, c); \
-        h = g; g = f; f = e; e = d + t1; \
-        d = c; c = b; b = a; a = t1 + t2; \
+    
+    
+    int remaining = len - pos;
+    
+    
+    for (int i = 0; i < remaining; i++) {
+        block[i] = data[pos + i];
     }
-
-    ROUND(w[0], c_K[0]); ROUND(w[1], c_K[1]); ROUND(w[2], c_K[2]); ROUND(w[3], c_K[3]);
-    ROUND(w[4], c_K[4]); ROUND(w[5], c_K[5]); ROUND(w[6], c_K[6]); ROUND(w[7], c_K[7]);
-    ROUND(w[8], c_K[8]); ROUND(w[9], c_K[9]); ROUND(w[10], c_K[10]); ROUND(w[11], c_K[11]);
-    ROUND(w[12], c_K[12]); ROUND(w[13], c_K[13]); ROUND(w[14], c_K[14]); ROUND(w[15], c_K[15]);
-
-    #define EXTEND_ROUND(i) { \
-        uint32_t s0 = sigma0(w[(i-15) & 15]); \
-        uint32_t s1 = sigma1(w[(i-2) & 15]); \
-        w[i & 15] = w[(i-16) & 15] + s0 + w[(i-7) & 15] + s1; \
-        ROUND(w[i & 15], c_K[i]); \
+    
+    
+    block[remaining] = 0x80;
+    
+    
+    if (remaining >= 56) {
+        
+        for (int i = remaining + 1; i < 64; i++) {
+            block[i] = 0;
+        }
+        sha256_transform(state, block);
+        
+        
+        for (int i = 0; i < 56; i++) {
+            block[i] = 0;
+        }
+    } else {
+        
+        for (int i = remaining + 1; i < 56; i++) {
+            block[i] = 0;
+        }
     }
-
-    EXTEND_ROUND(16); EXTEND_ROUND(17); EXTEND_ROUND(18); EXTEND_ROUND(19);
-    EXTEND_ROUND(20); EXTEND_ROUND(21); EXTEND_ROUND(22); EXTEND_ROUND(23);
-    EXTEND_ROUND(24); EXTEND_ROUND(25); EXTEND_ROUND(26); EXTEND_ROUND(27);
-    EXTEND_ROUND(28); EXTEND_ROUND(29); EXTEND_ROUND(30); EXTEND_ROUND(31);
-    EXTEND_ROUND(32); EXTEND_ROUND(33); EXTEND_ROUND(34); EXTEND_ROUND(35);
-    EXTEND_ROUND(36); EXTEND_ROUND(37); EXTEND_ROUND(38); EXTEND_ROUND(39);
-    EXTEND_ROUND(40); EXTEND_ROUND(41); EXTEND_ROUND(42); EXTEND_ROUND(43);
-    EXTEND_ROUND(44); EXTEND_ROUND(45); EXTEND_ROUND(46); EXTEND_ROUND(47);
-    EXTEND_ROUND(48); EXTEND_ROUND(49); EXTEND_ROUND(50); EXTEND_ROUND(51);
-    EXTEND_ROUND(52); EXTEND_ROUND(53); EXTEND_ROUND(54); EXTEND_ROUND(55);
-    EXTEND_ROUND(56); EXTEND_ROUND(57); EXTEND_ROUND(58); EXTEND_ROUND(59);
-    EXTEND_ROUND(60); EXTEND_ROUND(61); EXTEND_ROUND(62); EXTEND_ROUND(63);
-
-    h0 += a; h1 += b; h2 += c; h3 += d; h4 += e; h5 += f; h6 += g; h7 += h;
-
-    uint32_t* out = (uint32_t*)hash;
-    out[0] = __byte_perm(h0, 0, 0x0123);
-    out[1] = __byte_perm(h1, 0, 0x0123);
-    out[2] = __byte_perm(h2, 0, 0x0123);
-    out[3] = __byte_perm(h3, 0, 0x0123);
-    out[4] = __byte_perm(h4, 0, 0x0123);
-    out[5] = __byte_perm(h5, 0, 0x0123);
-    out[6] = __byte_perm(h6, 0, 0x0123);
-    out[7] = __byte_perm(h7, 0, 0x0123);
+    
+    
+    uint64_t bit_len = (uint64_t)len * 8;
+    block[56] = (bit_len >> 56) & 0xFF;
+    block[57] = (bit_len >> 48) & 0xFF;
+    block[58] = (bit_len >> 40) & 0xFF;
+    block[59] = (bit_len >> 32) & 0xFF;
+    block[60] = (bit_len >> 24) & 0xFF;
+    block[61] = (bit_len >> 16) & 0xFF;
+    block[62] = (bit_len >> 8) & 0xFF;
+    block[63] = bit_len & 0xFF;
+    
+    
+    sha256_transform(state, block);
+    
+    
+    for (int i = 0; i < 8; i++) {
+        hash[i*4]     = (state[i] >> 24) & 0xFF;
+        hash[i*4 + 1] = (state[i] >> 16) & 0xFF;
+        hash[i*4 + 2] = (state[i] >> 8) & 0xFF;
+        hash[i*4 + 3] = state[i] & 0xFF;
+    }
 }
 #define R2(aL,bL,cL,dL,eL,fL,xL,sL,kL, aR,bR,cR,dR,eR,fR,xR,sR,kR) \
 	{ \
