@@ -15,7 +15,7 @@ MAKE SURE YOUR GPU HAVE ENOUGH MEMORY, BECAUSE THE BLOOMFILE WILL BE IN GPU MEMO
 2) Check if cuda finds the hashes160 by running
 
 `main.exe test addrs.bin 29a78213caa9eea824acf08022ab9dfc83414f56` - verify puzzle 21 hash is there\
-`main.exe test addrs.bin 4e15e5189752d1eaf444dfd6bff399feb0443977` - verify puzzle 33 hash is there\
+`main.exe test addrs.bin 4e15e5189752d1eaf444dfd6bff399feb0443977` - verify puzzle 33 hash is there
 
 3) Run the search
 
