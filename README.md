@@ -8,7 +8,7 @@ MAKE SURE YOUR GPU HAVE ENOUGH MEMORY, BECAUSE THE BLOOMFILE WILL BE IN GPU MEMO
 
 1) Create a BloomFile from your addrs.txt
 
-`python bloom.py create addrs.txt addrs.bin --size 300` - the higher the size, the less false positives
+`python bloom.py create addrs.txt addrs.bin --size 300` - the higher the size, the less false positives (usually 300-500mb is enough)
 
 2) Check if cuda finds the hashes160 by running
 
