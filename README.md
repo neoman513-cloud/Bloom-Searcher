@@ -1,3 +1,9 @@
+THIS IS A RANDOM SEARCH GPU PROGRAM FOR BLOOMFILE
+
+you can download the list of all funded BTC addresses here http://addresses.loyce.club/
+
+then by using python bloom.py convert it from .txt to .bin - that will be used in this program
+
 1) Create a BloomFile from your addrs.txt
 
 `python bloom.py create addrs.txt addrs.bin --size 300` - the higher the size, the less false positives
