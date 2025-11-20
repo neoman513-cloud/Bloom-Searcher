@@ -4,6 +4,8 @@ you can download the list of all funded BTC addresses here http://addresses.loyc
 
 then by using python bloom.py convert it from .txt to .bin - that will be used in this program
 
+MAKE SURE YOUR GPU HAVE ENOUGH MEMORY, BECAUSE THE BLOOMFILE WILL BE IN GPU MEMORY THE WHOLE RUN
+
 1) Create a BloomFile from your addrs.txt
 
 `python bloom.py create addrs.txt addrs.bin --size 300` - the higher the size, the less false positives
