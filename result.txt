@@ -1,0 +1,1072 @@
+[2025-11-18 19:54:02] Found: 1a96ca8d8 -> 4e15e5189752d1eaf444dfd6bff399feb0443977
+Total keys checked: 2576351232
+Time taken: 7.58539 seconds
+Average speed: 339.646 MK/s
+
+[2025-11-18 20:33:36] Found: 1a96ca8d8 -> 4e15e5189752d1eaf444dfd6bff399feb0443977
+Total keys checked: 10107224064
+Time taken: 49.2496 seconds
+Average speed: 205.224 MK/s
+
+[2025-11-18 22:06:43] Found: 1a96ca8d8 -> 4e15e5189752d1eaf444dfd6bff399feb0443977
+Total keys checked: 462422016
+Time taken: 1.42561 seconds
+Average speed: 324.368 MK/s
+
+[2025-11-18 22:21:15] Found: 1a96ca8d8 -> 4e15e5189752d1eaf444dfd6bff399feb0443977
+Total keys checked: 6716129280
+Time taken: 19.5892 seconds
+Average speed: 342.849 MK/s
+
+[2025-11-18 22:21:33] Found: 17e2551e -> 5a416cc9148f4a377b672c8ae5d3287adaafadec
+Total keys checked: 22020096
+Time taken: 0.0944439 seconds
+Average speed: 233.155 MK/s
+
+[2025-11-18 22:21:40] Found: 3d94cd64 -> d39c4704664e1deb76c9331e637564c257d68a08
+Total keys checked: 1189085184
+Time taken: 3.52563 seconds
+Average speed: 337.269 MK/s
+
+[2025-11-18 22:22:05] Found: 34a65911d -> f6d67d7983bf70450f295c9cb828daab265f1bfa
+Total keys checked: 7795113984
+Time taken: 23.0749 seconds
+Average speed: 337.818 MK/s
+
+[2025-11-18 22:26:12] Found: 1a96ca8d8 -> 4e15e5189752d1eaf444dfd6bff399feb0443977
+Total keys checked: 1981808640
+Time taken: 6.21278 seconds
+Average speed: 318.989 MK/s
+
+[2025-11-18 22:40:12] Found: 1a96ca8d8 -> 4e15e5189752d1eaf444dfd6bff399feb0443977
+Total keys checked: 24838668288
+Time taken: 74.2235 seconds
+Average speed: 334.647 MK/s
+
+[2025-11-18 23:07:42] Found: 1a96ca8d8 -> 4e15e5189752d1eaf444dfd6bff399feb0443977
+Total keys checked: 110100480
+Time taken: 0.412191 seconds
+Average speed: 267.111 MK/s
+
+[2025-11-18 23:09:29] Found: 34a65911d -> f6d67d7983bf70450f295c9cb828daab265f1bfa
+Total keys checked: 27084718080
+Time taken: 102.972 seconds
+Average speed: 263.031 MK/s
+
+[2025-11-18 23:11:18] Found: 1a96ca8d8 -> 4e15e5189752d1eaf444dfd6bff399feb0443977
+Total keys checked: 7751073792
+Time taken: 24.8535 seconds
+Average speed: 311.87 MK/s
+
+[2025-11-18 23:14:48] Found: 1a96ca8d8 -> 4e15e5189752d1eaf444dfd6bff399feb0443977
+Total keys checked: 8653897728
+Time taken: 29.6798 seconds
+Average speed: 291.576 MK/s
+
+[2025-11-18 23:23:13] Found: 1a96ca8d8 -> 4e15e5189752d1eaf444dfd6bff399feb0443977
+Total keys checked: 6209667072
+Time taken: 20.4821 seconds
+Average speed: 303.176 MK/s
+
+[2025-11-18 23:26:53] Found: 1a96ca8d8 -> 4e15e5189752d1eaf444dfd6bff399feb0443977
+Total keys checked: 2752512000
+Time taken: 8.34735 seconds
+Average speed: 329.747 MK/s
+
+[2025-11-18 23:31:50] Found: 1a96ca8d8 -> 4e15e5189752d1eaf444dfd6bff399feb0443977
+Total keys checked: 176160768
+Time taken: 0.596995 seconds
+Average speed: 295.079 MK/s
+
+[2025-11-18 23:58:08] Found: 1a96ca8d8 -> 4e15e5189752d1eaf444dfd6bff399feb0443977
+Total keys checked: 6936330240
+Time taken: 22.4598 seconds
+Average speed: 308.833 MK/s
+
+[2025-11-19 00:00:02] Found: 1a96ca8d8 -> 4e15e5189752d1eaf444dfd6bff399feb0443977
+Total keys checked: 3258974208
+Time taken: 9.98101 seconds
+Average speed: 326.518 MK/s
+
+[2025-11-19 00:07:58] Found: 1a96ca8d8 -> 4e15e5189752d1eaf444dfd6bff399feb0443977
+Total keys checked: 11384389632
+Time taken: 34.9094 seconds
+Average speed: 326.112 MK/s
+
+[2025-11-19 00:13:21] Found: 1a96ca8d8 -> 4e15e5189752d1eaf444dfd6bff399feb0443977
+Total keys checked: 2862612480
+Time taken: 8.7417 seconds
+Average speed: 327.466 MK/s
+
+[2025-11-19 00:17:16] Found: 1a96ca8d8 -> 4e15e5189752d1eaf444dfd6bff399feb0443977
+Total keys checked: 11934892032
+Time taken: 35.8216 seconds
+Average speed: 333.176 MK/s
+
+[2025-11-19 00:17:22] Found: 1a96ca8d8 -> 4e15e5189752d1eaf444dfd6bff399feb0443977
+Total keys checked: 550502400
+Time taken: 1.71912 seconds
+Average speed: 320.224 MK/s
+
+[2025-11-19 00:19:31] Found: 1a96ca8d8 -> 4e15e5189752d1eaf444dfd6bff399feb0443977
+Total keys checked: 462422016
+Time taken: 1.47315 seconds
+Average speed: 313.901 MK/s
+
+[2025-11-19 00:21:50] Found: 1a96ca8d8 -> 4e15e5189752d1eaf444dfd6bff399feb0443977
+Total keys checked: 2003828736
+Time taken: 6.33081 seconds
+Average speed: 316.52 MK/s
+
+[2025-11-19 01:00:16] Found: 1a96ca8d8 -> 4e15e5189752d1eaf444dfd6bff399feb0443977
+Total keys checked: 1739587584
+Time taken: 5.11716 seconds
+Average speed: 339.952 MK/s
+
+[2025-11-19 01:11:48] Found: 1a96ca8d8 -> 4e15e5189752d1eaf444dfd6bff399feb0443977
+Total keys checked: 1959788544
+Time taken: 6.66059 seconds
+Average speed: 294.236 MK/s
+
+[2025-11-19 01:11:56] Found: 17e2551e -> 5a416cc9148f4a377b672c8ae5d3287adaafadec
+Total keys checked: 220200960
+Time taken: 0.764996 seconds
+Average speed: 287.846 MK/s
+
+[2025-11-19 01:36:56] Found: 1a96ca8d8 -> 4e15e5189752d1eaf444dfd6bff399feb0443977
+Total keys checked: 5350883328
+Time taken: 17.027 seconds
+Average speed: 314.258 MK/s
+
+[2025-11-19 01:59:48] Found: 1a96ca8d8 -> 4e15e5189752d1eaf444dfd6bff399feb0443977
+Total keys checked: 2003828736
+Time taken: 7.79739 seconds
+Average speed: 256.987 MK/s
+
+[2025-11-19 02:02:03] Found: 1a96ca8d8 -> 4e15e5189752d1eaf444dfd6bff399feb0443977
+Total keys checked: 3325034496
+Time taken: 11.7048 seconds
+Average speed: 284.073 MK/s
+
+[2025-11-19 02:05:49] Found: 1a96ca8d8 -> 4e15e5189752d1eaf444dfd6bff399feb0443977
+Total keys checked: 1541406720
+Time taken: 5.39975 seconds
+Average speed: 285.459 MK/s
+
+[2025-11-19 02:06:40] Found: 1a96ca8d8 -> 4e15e5189752d1eaf444dfd6bff399feb0443977
+Total keys checked: 5240782848
+Time taken: 16.6613 seconds
+Average speed: 314.548 MK/s
+
+[2025-11-19 02:07:27] Found: 1a96ca8d8 -> 4e15e5189752d1eaf444dfd6bff399feb0443977
+Total keys checked: 132120576
+Time taken: 0.466322 seconds
+Average speed: 283.325 MK/s
+
+[2025-11-19 02:08:57] Found: 1a96ca8d8 -> 4e15e5189752d1eaf444dfd6bff399feb0443977
+Total keys checked: 308281344
+Time taken: 1.02938 seconds
+Average speed: 299.482 MK/s
+
+[2025-11-19 02:09:46] Found: 1a96ca8d8 -> 4e15e5189752d1eaf444dfd6bff399feb0443977
+Total keys checked: 858783744
+Time taken: 2.738 seconds
+Average speed: 313.653 MK/s
+
+[2025-11-19 02:14:58] Found: 1a96ca8d8 -> 4e15e5189752d1eaf444dfd6bff399feb0443977
+Total keys checked: 462422016
+Time taken: 1.5232 seconds
+Average speed: 303.585 MK/s
+
+[2025-11-19 02:16:46] Found: 1a96ca8d8 -> 4e15e5189752d1eaf444dfd6bff399feb0443977
+Total keys checked: 7376732160
+Time taken: 23.6434 seconds
+Average speed: 312 MK/s
+
+[2025-11-19 02:18:23] Found: 1a96ca8d8 -> 4e15e5189752d1eaf444dfd6bff399feb0443977
+Total keys checked: 1695547392
+Time taken: 5.27982 seconds
+Average speed: 321.137 MK/s
+
+[2025-11-19 02:40:41] Found: 1a96ca8d8 -> 4e15e5189752d1eaf444dfd6bff399feb0443977
+Total keys checked: 10811867136
+Time taken: 35.8937 seconds
+Average speed: 301.219 MK/s
+
+[2025-11-19 02:43:29] Found: 1a96ca8d8 -> 4e15e5189752d1eaf444dfd6bff399feb0443977
+Total keys checked: 2642411520
+Time taken: 7.87429 seconds
+Average speed: 335.575 MK/s
+
+[2025-11-19 02:45:42] Found: 1a96ca8d8 -> 4e15e5189752d1eaf444dfd6bff399feb0443977
+Total keys checked: 3258974208
+Time taken: 9.62551 seconds
+Average speed: 338.577 MK/s
+
+[2025-11-19 02:46:47] Found: 1ba534 -> 29a78213caa9eea824acf08022ab9dfc83414f56
+Total keys checked: 22020096
+Time taken: 0.0993251 seconds
+Average speed: 221.697 MK/s
+
+[2025-11-19 02:46:54] Found: 1fa5ee5 -> 2f396b29b27324300d0c59b17c3abc1835bd3dbb
+Total keys checked: 22020096
+Time taken: 0.0969172 seconds
+Average speed: 227.205 MK/s
+
+[2025-11-19 02:46:57] Found: 17e2551e -> 5a416cc9148f4a377b672c8ae5d3287adaafadec
+Total keys checked: 44040192
+Time taken: 0.15079 seconds
+Average speed: 292.063 MK/s
+
+[2025-11-19 02:47:07] Found: 3d94cd64 -> d39c4704664e1deb76c9331e637564c257d68a08
+Total keys checked: 682622976
+Time taken: 2.09 seconds
+Average speed: 326.614 MK/s
+
+[2025-11-19 02:47:13] Found: 1a96ca8d8 -> 4e15e5189752d1eaf444dfd6bff399feb0443977
+Total keys checked: 1167065088
+Time taken: 3.53388 seconds
+Average speed: 330.251 MK/s
+
+[2025-11-19 02:47:54] Found: 34a65911d -> f6d67d7983bf70450f295c9cb828daab265f1bfa
+Total keys checked: 13190037504
+Time taken: 40.033 seconds
+Average speed: 329.479 MK/s
+
+[2025-11-19 03:09:14] Found: 1a96ca8d8 -> 4e15e5189752d1eaf444dfd6bff399feb0443977
+Total keys checked: 2113929216
+Time taken: 7.54491 seconds
+Average speed: 280.18 MK/s
+
+[2025-11-19 03:14:28] Found: 1a96ca8d8 -> 4e15e5189752d1eaf444dfd6bff399feb0443977
+Total keys checked: 5416943616
+Time taken: 17.0273 seconds
+Average speed: 318.132 MK/s
+
+[2025-11-19 03:14:47] Found: 1a96ca8d8 -> 4e15e5189752d1eaf444dfd6bff399feb0443977
+Total keys checked: 4426039296
+Time taken: 14.0211 seconds
+Average speed: 315.671 MK/s
+
+[2025-11-19 03:17:32] Found: 1a96ca8d8 -> 4e15e5189752d1eaf444dfd6bff399feb0443977
+Total keys checked: 2135949312
+Time taken: 6.36428 seconds
+Average speed: 335.615 MK/s
+
+[2025-11-19 03:20:02] Found: 1a96ca8d8 -> 4e15e5189752d1eaf444dfd6bff399feb0443977
+Total keys checked: 3038773248
+Time taken: 10.2709 seconds
+Average speed: 295.864 MK/s
+
+[2025-11-19 03:28:49] Found: 1a96ca8d8 -> 4e15e5189752d1eaf444dfd6bff399feb0443977
+Total keys checked: 110100480
+Time taken: 0.400869 seconds
+Average speed: 274.654 MK/s
+
+[2025-11-19 03:29:08] Found: 34a65911d -> f6d67d7983bf70450f295c9cb828daab265f1bfa
+Total keys checked: 4800380928
+Time taken: 16.0077 seconds
+Average speed: 299.88 MK/s
+
+[2025-11-19 03:30:40] Found: 1a96ca8d8 -> 4e15e5189752d1eaf444dfd6bff399feb0443977
+Total keys checked: 7618953216
+Time taken: 26.1647 seconds
+Average speed: 291.192 MK/s
+
+[2025-11-19 03:35:39] Found: 1a96ca8d8 -> 4e15e5189752d1eaf444dfd6bff399feb0443977
+Total keys checked: 4007657472
+Time taken: 11.8059 seconds
+Average speed: 339.463 MK/s
+
+[2025-11-19 03:46:26] Found: 1a96ca8d8 -> 4e15e5189752d1eaf444dfd6bff399feb0443977
+Total keys checked: 176160768
+Time taken: 0.585382 seconds
+Average speed: 300.933 MK/s
+
+[2025-11-19 03:46:45] Found: 34a65911d -> f6d67d7983bf70450f295c9cb828daab265f1bfa
+Total keys checked: 5240782848
+Time taken: 15.7761 seconds
+Average speed: 332.198 MK/s
+
+[2025-11-19 04:09:20] Found: 1a96ca8d8 -> 4e15e5189752d1eaf444dfd6bff399feb0443977
+Total keys checked: 8984199168
+Time taken: 47.6411 seconds
+Average speed: 188.581 MK/s
+
+[2025-11-19 04:11:32] Found: 1a96ca8d8 -> 4e15e5189752d1eaf444dfd6bff399feb0443977
+Keys checked: 528482304
+Time: 11.3263 sec
+
+[2025-11-19 04:17:07] Found:  -> 
+Total keys checked: 3809476608
+Time taken: 12.6084 seconds
+Average speed: 302.139 MK/s
+
+[2025-11-19 04:32:01] Found: 1a96ca8d8 -> 4e15e5189752d1eaf444dfd6bff399feb0443977
+Total keys checked: 1871708160
+Time taken: 5.45456 seconds
+Average speed: 343.146 MK/s
+
+[2025-11-19 05:27:59] Found: 17e2551e -> 5a416cc9148f4a377b672c8ae5d3287adaafadec
+Total keys checked: 462422016
+Time taken: 1.40067 seconds
+Average speed: 330.142 MK/s
+
+[2025-11-19 05:31:20] Found: 1a96ca8d8 -> 4e15e5189752d1eaf444dfd6bff399feb0443977
+Total keys checked: 396361728
+Time taken: 1.31143 seconds
+Average speed: 302.237 MK/s
+
+[2025-11-19 06:34:09] Found: 1a96ca8d8 -> 4e15e5189752d1eaf444dfd6bff399feb0443977
+Total keys checked: 1673527296
+Time taken: 6.06992 seconds
+Average speed: 275.708 MK/s
+
+[2025-11-19 06:34:24] Found: 1a96ca8d8 -> 4e15e5189752d1eaf444dfd6bff399feb0443977
+Total keys checked: 1673527296
+Time taken: 6.07737 seconds
+Average speed: 275.37 MK/s
+
+[2025-11-19 06:34:38] Found: 1a96ca8d8 -> 4e15e5189752d1eaf444dfd6bff399feb0443977
+Total keys checked: 1673527296
+Time taken: 6.07514 seconds
+Average speed: 275.471 MK/s
+
+[2025-11-19 06:34:40] Found: 34a65911d -> f6d67d7983bf70450f295c9cb828daab265f1bfa
+Total keys checked: 110100480
+Time taken: 0.448685 seconds
+Average speed: 245.385 MK/s
+
+[2025-11-19 06:34:43] Found: 34a65911d -> f6d67d7983bf70450f295c9cb828daab265f1bfa
+Total keys checked: 110100480
+Time taken: 0.43577 seconds
+Average speed: 252.657 MK/s
+
+[2025-11-19 06:45:03] Found: 1a96ca8d8 -> 4e15e5189752d1eaf444dfd6bff399feb0443977
+Total keys checked: 3501195264
+Time taken: 14.3078 seconds
+Average speed: 244.705 MK/s
+
+[2025-11-19 06:46:03] Found: 34a65911d -> f6d67d7983bf70450f295c9cb828daab265f1bfa
+Total keys checked: 10591666176
+Time taken: 51.6099 seconds
+Average speed: 205.225 MK/s
+
+[2025-11-19 07:00:46] Found: 1a96ca8d8 -> 4e15e5189752d1eaf444dfd6bff399feb0443977
+Total keys checked: 8037335040
+Time taken: 34.7649 seconds
+Average speed: 231.191 MK/s
+
+[2025-11-19 07:16:49] Found: 1a96ca8d8 -> 4e15e5189752d1eaf444dfd6bff399feb0443977
+Total keys checked: 44040192
+Time taken: 0.246703 seconds
+Average speed: 178.515 MK/s
+
+[2025-11-19 07:17:05] Found: 34a65911d -> f6d67d7983bf70450f295c9cb828daab265f1bfa
+Total keys checked: 1189085184
+Time taken: 5.54571 seconds
+Average speed: 214.415 MK/s
+
+[2025-11-19 08:04:26] Found: 1a96ca8d8 -> 4e15e5189752d1eaf444dfd6bff399feb0443977
+Total keys checked: 7751073792
+Time taken: 26.6213 seconds
+Average speed: 291.161 MK/s
+
+[2025-11-19 08:30:20] Found: 1a96ca8d8 -> 4e15e5189752d1eaf444dfd6bff399feb0443977
+Total keys checked: 2928672768
+Time taken: 8.55418 seconds
+Average speed: 342.368 MK/s
+
+[2025-11-19 08:37:52] Found: 1a96ca8d8 -> 4e15e5189752d1eaf444dfd6bff399feb0443977
+Total keys checked: 418381824
+Time taken: 1.28 seconds
+Average speed: 326.86 MK/s
+
+[2025-11-19 21:16:21] FOUND MATCH
+Seed: 3871176450
+SHA256: 14cf5fa9d14c14d5f9dd38308cb12b797152734e15e518931e5fc1f585d5fa72
+Extracted: 4e15e5189
+Target: 4e15e5189752d1eaf444dfd6bff399feb0443977
+Time: 8.94093 seconds
+Seeds checked: 3735552000
+Speed: 417.803 M seeds/s
+
+[2025-11-19 21:16:49] FOUND MATCH
+Seed: 3871176450
+SHA256: 14cf5fa9d14c14d5f9dd38308cb12b797152734e15e518931e5fc1f585d5fa72
+Extracted: 4e15e5189
+Target: 4e15e5189752d1eaf444dfd6bff399feb0443977
+Time: 16.6676 seconds
+Seeds checked: 3735552000
+Speed: 224.12 M seeds/s
+
+[2025-11-19 21:17:03] FOUND MATCH
+Seed: 3871176450
+SHA256: 14cf5fa9d14c14d5f9dd38308cb12b797152734e15e518931e5fc1f585d5fa72
+Extracted: 4e15e5189
+Target: 4e15e5189752d1eaf444dfd6bff399feb0443977
+Time: 8.85409 seconds
+Seeds checked: 3735552000
+Speed: 421.901 M seeds/s
+
+[2025-11-19 21:30:49] FOUND MATCH
+Seed: 6363077531 (0x17b44db9b)
+SHA256: 12d93055f9de303da62b1d574d03edb4e15e5189ae39e812c56fd4a3979c227a
+Extracted: 4e15e5189
+Target: 4e15e5189752d1eaf444dfd6bff399feb0443977
+Time: 4.52372 seconds
+Seeds checked: 1966080000
+Speed: 434.616 M seeds/s
+
+[2025-11-19 23:06:07] Found: 1a96ca8d8 -> 4e15e5189752d1eaf444dfd6bff399feb0443977
+Total keys checked: 14680064
+Time taken: 54.0081 seconds
+Average speed: 0.271812 MK/s
+
+[2025-11-19 23:08:59] Found: 1a96ca8d8 -> 4e15e5189752d1eaf444dfd6bff399feb0443977
+Total keys checked: 5681184768
+Time taken: 16.9648 seconds
+Average speed: 334.881 MK/s
+
+[2025-11-19 23:11:05] Found: 1a96ca8d8 -> 4e15e5189752d1eaf444dfd6bff399feb0443977
+Total keys checked: 550502400
+Time taken: 1.70341 seconds
+Average speed: 323.177 MK/s
+
+[2025-11-19 23:13:39] Found: 3d94cd64 -> d39c4704664e1deb76c9331e637564c257d68a08
+Total keys checked: 176160768
+Time taken: 0.664568 seconds
+Average speed: 265.076 MK/s
+
+[2025-11-19 23:14:15] Found: 34a65911d -> f6d67d7983bf70450f295c9cb828daab265f1bfa
+Total keys checked: 7618953216
+Time taken: 28.5247 seconds
+Average speed: 267.1 MK/s
+
+[2025-11-19 23:18:16] Found: 1a96ca8d8 -> 4e15e5189752d1eaf444dfd6bff399feb0443977
+Total keys checked: 352321536
+Time taken: 1.21435 seconds
+Average speed: 290.133 MK/s
+
+[2025-11-19 23:18:27] Found: 1ba534 -> 29a78213caa9eea824acf08022ab9dfc83414f56
+Total keys checked: 22020096
+Time taken: 0.097815 seconds
+Average speed: 225.12 MK/s
+
+[2025-11-19 23:18:30] Found: 1fa5ee5 -> 2f396b29b27324300d0c59b17c3abc1835bd3dbb
+Total keys checked: 22020096
+Time taken: 0.100976 seconds
+Average speed: 218.072 MK/s
+
+[2025-11-19 23:18:35] Found: 17e2551e -> 5a416cc9148f4a377b672c8ae5d3287adaafadec
+Total keys checked: 198180864
+Time taken: 0.682649 seconds
+Average speed: 290.311 MK/s
+
+[2025-11-19 23:18:39] Found: 3d94cd64 -> d39c4704664e1deb76c9331e637564c257d68a08
+Total keys checked: 44040192
+Time taken: 0.171321 seconds
+Average speed: 257.062 MK/s
+
+[2025-11-19 23:18:46] Found: 1a96ca8d8 -> 4e15e5189752d1eaf444dfd6bff399feb0443977
+Total keys checked: 352321536
+Time taken: 1.17111 seconds
+Average speed: 300.843 MK/s
+
+[2025-11-19 23:19:13] Found: 34a65911d -> f6d67d7983bf70450f295c9cb828daab265f1bfa
+Total keys checked: 6341787648
+Time taken: 20.4695 seconds
+Average speed: 309.816 MK/s
+
+[2025-11-19 23:46:35] Found: 34a65911d -> f6d67d7983bf70450f295c9cb828daab265f1bfa
+Total keys checked: 9468641280
+Time taken: 45.8186 seconds
+Average speed: 206.655 MK/s
+
+[2025-11-20 00:05:57] Found: 1a96ca8d8 -> 4e15e5189752d1eaf444dfd6bff399feb0443977
+Total keys checked: 770703360
+Time taken: 2.38911 seconds
+Average speed: 322.59 MK/s
+
+[2025-11-20 00:06:08] Found: 34a65911d -> f6d67d7983bf70450f295c9cb828daab265f1bfa
+Total keys checked: 2818572288
+Time taken: 8.66329 seconds
+Average speed: 325.347 MK/s
+
+[2025-11-20 00:06:16] Found: 17e2551e -> 5a416cc9148f4a377b672c8ae5d3287adaafadec
+Total keys checked: 374341632
+Time taken: 1.19993 seconds
+Average speed: 311.97 MK/s
+
+[2025-11-20 00:06:19] Found: 1fa5ee5 -> 2f396b29b27324300d0c59b17c3abc1835bd3dbb
+Total keys checked: 110100480
+Time taken: 0.386174 seconds
+Average speed: 285.106 MK/s
+
+[2025-11-20 00:06:22] Found: 1ba534 -> 29a78213caa9eea824acf08022ab9dfc83414f56
+Total keys checked: 22020096
+Time taken: 0.0964543 seconds
+Average speed: 228.296 MK/s
+
+[2025-11-20 00:09:55] Found: 1ba534 -> 29a78213caa9eea824acf08022ab9dfc83414f56
+Total keys checked: 22020096
+Time taken: 0.0990916 seconds
+Average speed: 222.22 MK/s
+
+[2025-11-20 00:09:57] Found: 1fa5ee5 -> 2f396b29b27324300d0c59b17c3abc1835bd3dbb
+Total keys checked: 110100480
+Time taken: 0.400264 seconds
+Average speed: 275.07 MK/s
+
+[2025-11-20 00:10:13] Found: 17e2551e -> 5a416cc9148f4a377b672c8ae5d3287adaafadec
+Total keys checked: 374341632
+Time taken: 1.22764 seconds
+Average speed: 304.928 MK/s
+
+[2025-11-20 00:10:18] Found: 3d94cd64 -> d39c4704664e1deb76c9331e637564c257d68a08
+Total keys checked: 726663168
+Time taken: 2.35649 seconds
+Average speed: 308.367 MK/s
+
+[2025-11-20 00:10:27] Found: 1a96ca8d8 -> 4e15e5189752d1eaf444dfd6bff399feb0443977
+Total keys checked: 770703360
+Time taken: 2.49087 seconds
+Average speed: 309.411 MK/s
+
+[2025-11-20 00:10:38] Found: 34a65911d -> f6d67d7983bf70450f295c9cb828daab265f1bfa
+Total keys checked: 2818572288
+Time taken: 9.03462 seconds
+Average speed: 311.975 MK/s
+
+[2025-11-20 00:27:36] Found: 1757756a93 -> 28c30fb9118ed1da72e7c4f89c0164756e8a021d
+Total keys checked: 19840106496
+Time taken: 68.8665 seconds
+Average speed: 288.095 MK/s
+
+[2025-11-20 00:40:39] Found: 1ba534 -> 29a78213caa9eea824acf08022ab9dfc83414f56
+Total keys checked: 22020096
+Time taken: 0.0953397 seconds
+Average speed: 230.965 MK/s
+
+[2025-11-20 00:40:41] Found: 1fa5ee5 -> 2f396b29b27324300d0c59b17c3abc1835bd3dbb
+Total keys checked: 22020096
+Time taken: 0.0940733 seconds
+Average speed: 234.074 MK/s
+
+[2025-11-20 00:40:46] Found: 17e2551e -> 5a416cc9148f4a377b672c8ae5d3287adaafadec
+Total keys checked: 198180864
+Time taken: 0.640761 seconds
+Average speed: 309.29 MK/s
+
+[2025-11-20 00:40:51] Found: 3d94cd64 -> d39c4704664e1deb76c9331e637564c257d68a08
+Total keys checked: 748683264
+Time taken: 2.26317 seconds
+Average speed: 330.812 MK/s
+
+[2025-11-20 00:41:34] Found: 1a96ca8d8 -> 4e15e5189752d1eaf444dfd6bff399feb0443977
+Total keys checked: 13718519808
+Time taken: 41.0478 seconds
+Average speed: 334.209 MK/s
+
+[2025-11-20 00:43:02] Found: 34a65911d -> f6d67d7983bf70450f295c9cb828daab265f1bfa
+Total keys checked: 26600275968
+Time taken: 83.863 seconds
+Average speed: 317.187 MK/s
+
+[2025-11-20 00:45:52] Found: 1ba534 -> 29a78213caa9eea824acf08022ab9dfc83414f56
+Total keys checked: 22020096
+Time taken: 0.0974482 seconds
+Average speed: 225.967 MK/s
+
+[2025-11-20 00:45:54] Found: 1fa5ee5 -> 2f396b29b27324300d0c59b17c3abc1835bd3dbb
+Total keys checked: 22020096
+Time taken: 0.0954041 seconds
+Average speed: 230.809 MK/s
+
+[2025-11-20 00:45:58] Found: 17e2551e -> 5a416cc9148f4a377b672c8ae5d3287adaafadec
+Total keys checked: 198180864
+Time taken: 0.627248 seconds
+Average speed: 315.953 MK/s
+
+[2025-11-20 00:46:02] Found: 3d94cd64 -> d39c4704664e1deb76c9331e637564c257d68a08
+Total keys checked: 44040192
+Time taken: 0.166954 seconds
+Average speed: 263.787 MK/s
+
+[2025-11-20 00:46:07] Found: 1a96ca8d8 -> 4e15e5189752d1eaf444dfd6bff399feb0443977
+Total keys checked: 352321536
+Time taken: 1.09623 seconds
+Average speed: 321.395 MK/s
+
+[2025-11-20 00:46:29] Found: 34a65911d -> f6d67d7983bf70450f295c9cb828daab265f1bfa
+Total keys checked: 6341787648
+Time taken: 18.9842 seconds
+Average speed: 334.056 MK/s
+
+[2025-11-20 00:53:11] Found: 1ba534 -> 29a78213caa9eea824acf08022ab9dfc83414f56
+Total keys checked: 22020096
+Time taken: 0.0998457 seconds
+Average speed: 220.541 MK/s
+
+[2025-11-20 00:53:12] Found: 1fa5ee5 -> 2f396b29b27324300d0c59b17c3abc1835bd3dbb
+Total keys checked: 44040192
+Time taken: 0.177109 seconds
+Average speed: 248.662 MK/s
+
+[2025-11-20 00:53:17] Found: 17e2551e -> 5a416cc9148f4a377b672c8ae5d3287adaafadec
+Total keys checked: 198180864
+Time taken: 0.719338 seconds
+Average speed: 275.504 MK/s
+
+[2025-11-20 00:53:23] Found: 3d94cd64 -> d39c4704664e1deb76c9331e637564c257d68a08
+Total keys checked: 748683264
+Time taken: 2.45761 seconds
+Average speed: 304.639 MK/s
+
+[2025-11-20 00:53:48] Found: 1a96ca8d8 -> 4e15e5189752d1eaf444dfd6bff399feb0443977
+Total keys checked: 6561988608
+Time taken: 23.6099 seconds
+Average speed: 277.934 MK/s
+
+[2025-11-20 00:58:03] Found: 1ba534 -> 29a78213caa9eea824acf08022ab9dfc83414f56
+Total keys checked: 22020096
+Time taken: 0.0972073 seconds
+Average speed: 226.527 MK/s
+
+[2025-11-20 01:07:06] Found: 1ba534 -> 29a78213caa9eea824acf08022ab9dfc83414f56
+Total keys checked: 22020096
+Time taken: 0.0995368 seconds
+Average speed: 221.226 MK/s
+
+[2025-11-20 01:49:56] Found: 100901 -> 5cd14745287675f156732c4fbf0dcfbfc7ecc638
+Total keys checked: 22020096
+Time taken: 0.104164 seconds
+Average speed: 211.399 MK/s
+Bloom filter: bloombtc.bin (538.395 MB)
+
+[2025-11-20 01:51:33] Found: 1e1b8c -> 27fb06488b47779234143dbb5064e5e681e157f4
+Total keys checked: 22020096
+Time taken: 0.110998 seconds
+Average speed: 198.382 MK/s
+Bloom filter: bloombtc.bin (538.395 MB)
+
+[2025-11-20 02:20:56] Found: 187a82 -> f56e2a979845bc26c72900740ecce9a39023f8f5
+Total keys checked: 22020096
+Time taken: 0.111305 seconds
+Average speed: 197.836 MK/s
+Bloom filter: bloombtc.bin (538.395 MB)
+
+[2025-11-20 02:22:14] Found: 1a5245 -> 8ba765d189b07de5326dd7bce3b95930e4743c76
+Total keys checked: 22020096
+Time taken: 0.112373 seconds
+Average speed: 195.955 MK/s
+Bloom filter: bloombtc.bin (538.395 MB)
+
+[2025-11-20 02:41:10] Found: 14837a -> f34d4c02bfd183408ca057265cf5b677a4709a4e
+Total keys checked: 22020096
+Time taken: 0.128372 seconds
+Average speed: 171.533 MK/s
+Bloom filter: bloombtc.bin (538.395 MB)
+
+[2025-11-20 02:41:39] Found: 1d6af7e9c3733e7786c2 -> 4f4100f3eb5d956fae12c91be66433cf225a7f4d
+Total keys checked: 22020096
+Time taken: 0.133792 seconds
+Average speed: 164.585 MK/s
+Bloom filter: bloombtc.bin (538.395 MB)
+
+[2025-11-20 03:15:49] Found: 1cd152 -> b8ede5ae51e5b3eeb5034636e2b8386ccf46ca26
+Total keys checked: 22020096
+Time taken: 0.112774 seconds
+Average speed: 195.258 MK/s
+Bloom filter: bloombtc.bin (1 MB)
+
+[2025-11-20 03:16:09] Found: 1b17d36606bffd549dd6 -> 34b3bc383858440c6439e45cb0485d4781b5f924
+Total keys checked: 22020096
+Time taken: 0.105877 seconds
+Average speed: 207.978 MK/s
+Bloom filter: bloombtc.bin (1 MB)
+
+[2025-11-20 03:30:57] Found: 1c61ae -> 687869921d362c2e3cbf04d4b1c8231b9ab365bd
+Total keys checked: 22020096
+Time taken: 0.101977 seconds
+Average speed: 215.931 MK/s
+Bloom filter: bloombtc.bin (2 MB)
+
+[2025-11-20 03:35:03] Found: 1eeff3 -> f42ac74d75f2f0255e1215579c7ee30c1e8c7a92
+Total keys checked: 22020096
+Time taken: 0.103814 seconds
+Average speed: 212.112 MK/s
+Bloom filter: bloombtc.bin (2 MB)
+
+[2025-11-20 03:45:37] Found: 1b2aca -> 124ad9d0aee6fc04f9afda26687647c520df6699
+Total keys checked: 22020096
+Time taken: 0.100752 seconds
+Average speed: 218.558 MK/s
+Bloom filter: bloombtc.bin (2 MB)
+
+[2025-11-20 03:45:42] Found: 1c3773 -> acf42819814dce965587942ce8089d37d56bcf59
+Total keys checked: 22020096
+Time taken: 0.101405 seconds
+Average speed: 217.151 MK/s
+Bloom filter: bloombtc.bin (2 MB)
+
+[2025-11-20 03:45:44] Found: 10cc2e -> 7f75c86d8afd3fbb483e4cc636a8951e777bbf5b
+Total keys checked: 22020096
+Time taken: 0.0965945 seconds
+Average speed: 227.964 MK/s
+Bloom filter: bloombtc.bin (2 MB)
+
+[2025-11-20 03:59:05] Found: 1ba534 -> 29a78213caa9eea824acf08022ab9dfc83414f56
+Total keys checked: 22020096
+Time taken: 0.0983904 seconds
+Average speed: 223.803 MK/s
+Bloom filter: bloombtc.bin (8 MB)
+
+[2025-11-20 04:01:51] Found: 13ff4ec9a -> 441d921f8ccb63c4dab327298a891d133aa14d67
+Total keys checked: 286261248
+Time taken: 0.919239 seconds
+Average speed: 311.411 MK/s
+Bloom filter: bloombtc.bin (8 MB)
+
+[2025-11-20 04:02:04] Found: 1a9388bc1 -> 105bccda3e4ff456614ab952854fc26f0231b694
+Total keys checked: 220200960
+Time taken: 0.710282 seconds
+Average speed: 310.019 MK/s
+Bloom filter: bloombtc.bin (8 MB)
+
+[2025-11-20 04:02:18] Found: 1ba534 -> 29a78213caa9eea824acf08022ab9dfc83414f56
+Total keys checked: 22020096
+Time taken: 0.0993971 seconds
+Average speed: 221.537 MK/s
+Bloom filter: bloombtc.bin (8 MB)
+
+[2025-11-20 04:02:20] Found: 1ba534 -> 29a78213caa9eea824acf08022ab9dfc83414f56
+Total keys checked: 22020096
+Time taken: 0.0992283 seconds
+Average speed: 221.913 MK/s
+Bloom filter: bloombtc.bin (8 MB)
+
+[2025-11-20 04:06:08] Found: 19eeed -> a7f7472efb1e632e4f43831345ab1cfbbd7599bb
+Total keys checked: 22020096
+Time taken: 0.103371 seconds
+Average speed: 213.02 MK/s
+Bloom filter: bloombtc.bin (1.59116 MB)
+
+[2025-11-20 04:06:10] Found: 163fce -> 0bba00b947d09d1b5e355c679f678b8c389f9c32
+Total keys checked: 22020096
+Time taken: 0.102525 seconds
+Average speed: 214.779 MK/s
+Bloom filter: bloombtc.bin (1.59116 MB)
+
+[2025-11-20 04:08:48] Found: 1f5e01 -> 908200c0ffb849b72c7798ae01229cc475498a9a
+Total keys checked: 22020096
+Time taken: 0.0996513 seconds
+Average speed: 220.971 MK/s
+Bloom filter: bloombtc.bin (1.59116 MB)
+
+[2025-11-20 04:08:52] Found: 1b31a8 -> d77f2b9fd7ff699cd932502c5cff2c4af0cc01fb
+Total keys checked: 22020096
+Time taken: 0.105094 seconds
+Average speed: 209.528 MK/s
+Bloom filter: bloombtc.bin (1.59116 MB)
+
+[2025-11-20 04:12:12] Found: 152d3d -> a18f611adfc267431565e2721a89492be1241f82
+Total keys checked: 22020096
+Time taken: 0.103988 seconds
+Average speed: 211.756 MK/s
+Bloom filter: bloombtc.bin (1.59116 MB)
+
+[2025-11-20 04:12:16] Found: 157a78 -> fb6a532e111c863ac57930be64aac9ad111ec64f
+Total keys checked: 22020096
+Time taken: 0.10047 seconds
+Average speed: 219.17 MK/s
+Bloom filter: bloombtc.bin (1.59116 MB)
+
+[2025-11-20 04:15:58] Found: 1af492 -> 72260704271b84cc84899bcf5ae1566b7620b207
+Total keys checked: 22020096
+Time taken: 0.103837 seconds
+Average speed: 212.064 MK/s
+Bloom filter: bloombtc.bin (1.59116 MB)
+
+[2025-11-20 04:16:08] Found: 1fd65b -> 07c4aa653ba4289c06df17a612b68626f620acff
+Total keys checked: 22020096
+Time taken: 0.101349 seconds
+Average speed: 217.269 MK/s
+Bloom filter: bloombtc.bin (1.59116 MB)
+
+[2025-11-20 04:18:40] Found: 1051c7 -> 80ce2053525c7c8e9b94029cf84723ccc3851cf9
+Total keys checked: 22020096
+Time taken: 0.103693 seconds
+Average speed: 212.359 MK/s
+Bloom filter: bloombtc.bin (1.59116 MB)
+
+[2025-11-20 04:21:12] Found: 13278a -> daa2e605d33a04f669f1629c8517a37d2672a7e0
+Total keys checked: 22020096
+Time taken: 0.0960647 seconds
+Average speed: 229.222 MK/s
+Bloom filter: bloombtc.bin (1.59116 MB)
+
+[2025-11-20 04:21:17] Found: 16d82e -> 870a8f7fcbed9046dd6685a21bbceb712b04c11e
+Total keys checked: 22020096
+Time taken: 0.101866 seconds
+Average speed: 216.167 MK/s
+Bloom filter: bloombtc.bin (1.59116 MB)
+
+[2025-11-20 04:24:46] Found: 1805df -> ec1368d2d6684626ab213b0f350ab3d326a754d0
+Total keys checked: 22020096
+Time taken: 0.101763 seconds
+Average speed: 216.386 MK/s
+Bloom filter: bloombtc.bin (1.59116 MB)
+
+[2025-11-20 04:26:10] Found: 151e6f -> 0486229b84c07cbf7bdae03154b3150fbffee573
+Total keys checked: 22020096
+Time taken: 0.100502 seconds
+Average speed: 219.102 MK/s
+Bloom filter: bloombtc.bin (1.59116 MB)
+
+[2025-11-20 04:27:47] Found: 105125 -> 95889f951826a4262942c5bcbbfb68a79a74c330
+Total keys checked: 22020096
+Time taken: 0.101185 seconds
+Average speed: 217.623 MK/s
+Bloom filter: bloombtc.bin (1.59116 MB)
+
+[2025-11-20 04:30:03] Found: 1fe081 -> 4816f4e2a8106fc8765c1d001ebf45fd1812c8cf
+Total keys checked: 22020096
+Time taken: 0.101719 seconds
+Average speed: 216.48 MK/s
+Bloom filter: bloombtc.bin (1.59116 MB)
+
+[2025-11-20 04:32:34] Found: 1bdf2b -> d218e284472d8d32bead47bdab45a8f648ceb677
+Total keys checked: 22020096
+Time taken: 0.103228 seconds
+Average speed: 213.316 MK/s
+Bloom filter: bloombtc.bin (1.59116 MB)
+
+[2025-11-20 04:33:16] Found: 1b3cb5 -> 198b836706772e27c2f5e7c4df71d89f94de6a0a
+Total keys checked: 22020096
+Time taken: 0.102608 seconds
+Average speed: 214.604 MK/s
+Bloom filter: bloombtc.bin (1.59116 MB)
+
+[2025-11-20 04:35:00] Found: 10999b -> 3520da5ad441bf50a35018ec6cdd6b289de438c4
+Total keys checked: 22020096
+Time taken: 0.0992834 seconds
+Average speed: 221.79 MK/s
+Bloom filter: bloombtc.bin (1.59116 MB)
+
+[2025-11-20 04:37:12] Found: 12a58c -> aab5f313bb55facf8bae200a4e06d05937760c79
+Total keys checked: 22020096
+Time taken: 0.104542 seconds
+Average speed: 210.634 MK/s
+Bloom filter: bloombtc.bin (1.59116 MB)
+
+[2025-11-20 04:37:41] Found: 1cbcc8 -> 27b9dc894ebdd8eca31c7508146b757f53ae3f99
+Total keys checked: 22020096
+Time taken: 0.101471 seconds
+Average speed: 217.009 MK/s
+Bloom filter: bloombtc.bin (1.59116 MB)
+
+[2025-11-20 04:38:53] Found: 14d5ae -> 1b1bc49e6178ee8fa73cbc63e7f769928f5ee820
+Total keys checked: 22020096
+Time taken: 0.101218 seconds
+Average speed: 217.552 MK/s
+Bloom filter: bloombtc.bin (1.59116 MB)
+
+[2025-11-20 04:39:10] Found: 1955de -> 5a79a86de6655df4553d602ed9fcbc00ed44d0bd
+Total keys checked: 22020096
+Time taken: 0.102629 seconds
+Average speed: 214.56 MK/s
+Bloom filter: bloombtc.bin (1.59116 MB)
+
+[2025-11-20 04:39:13] Found: 1ce4f9 -> b5594fd1a3a35d432c9c18b6caa99333877bed51
+Total keys checked: 22020096
+Time taken: 0.102247 seconds
+Average speed: 215.361 MK/s
+Bloom filter: bloombtc.bin (1.59116 MB)
+
+[2025-11-20 04:39:46] Found: 186101 -> 386d8b02869b2dd53993f12809c632ef3ca27ee2
+Total keys checked: 22020096
+Time taken: 0.103458 seconds
+Average speed: 212.841 MK/s
+Bloom filter: bloombtc.bin (1.59116 MB)
+
+[2025-11-20 04:40:22] Found: 1e3a74 -> 1f268961c113e1e253f0547cdcf4f6cddb557b4e
+Total keys checked: 22020096
+Time taken: 0.106478 seconds
+Average speed: 206.804 MK/s
+Bloom filter: bloombtc.bin (1.59116 MB)
+
+[2025-11-20 04:40:26] Found: 18b8e8 -> ce07a7df3b1bd44ea250a421962c8171b2e082fc
+Total keys checked: 22020096
+Time taken: 0.10284 seconds
+Average speed: 214.121 MK/s
+Bloom filter: bloombtc.bin (1.59116 MB)
+
+[2025-11-20 04:41:54] Found: 1090cc -> 348ef5ab3f0ea0e2d601e25a541fe5a848830a2a
+Total keys checked: 22020096
+Time taken: 0.10331 seconds
+Average speed: 213.147 MK/s
+Bloom filter: bloombtc.bin (1.59116 MB)
+
+[2025-11-20 04:41:58] Found: 12a151 -> d43a545b0c9a2c376cd894cab30b76ef61c7b59d
+Total keys checked: 22020096
+Time taken: 0.102368 seconds
+Average speed: 215.108 MK/s
+Bloom filter: bloombtc.bin (1.59116 MB)
+
+[2025-11-20 04:44:31] Found: 1eca64 -> b66671821f5fb24aef470aff6ebf390c2a3dcd8e
+Total keys checked: 22020096
+Time taken: 0.0941024 seconds
+Average speed: 234.001 MK/s
+Bloom filter: bloombtc.bin (1.59116 MB)
+
+[2025-11-20 04:46:06] Found: 185b48 -> ecaf5e9f954a20754a08456cc4ba1ebe87abc6b3
+Total keys checked: 22020096
+Time taken: 0.101516 seconds
+Average speed: 216.912 MK/s
+Bloom filter: bloombtc.bin (1.59116 MB)
+
+[2025-11-20 04:47:51] Found: 12a151 -> d43a545b0c9a2c376cd894cab30b76ef61c7b59d
+Total keys checked: 22020096
+Time taken: 0.0942201 seconds
+Average speed: 233.709 MK/s
+Bloom filter: bloombtc.bin (1.59116 MB)
+
+[2025-11-20 05:08:53] Found: 13a60d -> fa3bb062f5f2c1ea6e3cf36f21ba99a4124e0a84
+Total keys checked: 22020096
+Time taken: 0.102471 seconds
+Average speed: 214.891 MK/s
+Bloom filter: bloombtc.bin (1.59116 MB)
+
+[2025-11-20 05:08:56] Found: 171443 -> a48e8f98788d6e9ba23380ccb9150d6891b2d6a2
+Total keys checked: 22020096
+Time taken: 0.109262 seconds
+Average speed: 201.534 MK/s
+Bloom filter: bloombtc.bin (1.59116 MB)
+
+[2025-11-20 05:12:15] Found: 12daf0 -> 5b3de466341c9f996cb862cac94786777be3ba05
+Total keys checked: 22020096
+Time taken: 0.110987 seconds
+Average speed: 198.402 MK/s
+Bloom filter: bloombtc.bin (1.59116 MB)
+
+[2025-11-20 05:12:18] Found: 1213d7 -> 1edf1ab47fdf1686e36a093a5526ec912550abac
+Total keys checked: 22020096
+Time taken: 0.10303 seconds
+Average speed: 213.726 MK/s
+Bloom filter: bloombtc.bin (1.59116 MB)
+
+[2025-11-20 05:16:06] Found: 191238 -> f715325b7fb3b1f5d9616c71ae349d220ca67f61
+Total keys checked: 22020096
+Time taken: 0.101874 seconds
+Average speed: 216.151 MK/s
+Bloom filter: bloombtc.bin (1.59116 MB)
+
+[2025-11-20 05:18:34] Found: 127fd9 -> 9346158638e382e5a3a26297e327341354a9201f
+Total keys checked: 22020096
+Time taken: 0.109147 seconds
+Average speed: 201.747 MK/s
+Bloom filter: bloombtc.bin (1.59116 MB)
+
+[2025-11-20 05:24:06] Found: 1fe66a -> be3d9fa73013ae41b70e30d001c5b3e91be87c4b
+Total keys checked: 22020096
+Time taken: 0.103073 seconds
+Average speed: 213.636 MK/s
+Bloom filter: bloombtc.bin (1.59116 MB)
+
+[2025-11-20 05:28:54] Found: 10f0fb -> 80d4819848476d4a8ed17a136bbb1760cfa350a4
+Total keys checked: 22020096
+Time taken: 0.102083 seconds
+Average speed: 215.708 MK/s
+Bloom filter: bloombtc.bin (1.59116 MB)
+
+[2025-11-20 05:30:12] Found: 1ba534 -> 29a78213caa9eea824acf08022ab9dfc83414f56
+Total keys checked: 22020096
+Time taken: 0.100433 seconds
+Average speed: 219.252 MK/s
+Bloom filter: test_bloom.bin (2 MB)
+
+[2025-11-20 05:37:34] Found: 1ba534 -> 29a78213caa9eea824acf08022ab9dfc83414f56
+Total keys checked: 22020096
+Time taken: 0.0970543 seconds
+Average speed: 226.884 MK/s
+Bloom filter: addrs.bin (100 MB)
+
+[2025-11-20 05:37:36] Found: 1ba534 -> 29a78213caa9eea824acf08022ab9dfc83414f56
+Total keys checked: 22020096
+Time taken: 0.101302 seconds
+Average speed: 217.372 MK/s
+Bloom filter: addrs.bin (100 MB)
+
+[2025-11-20 05:38:24] Found: 1a96ca8d8 -> 4e15e5189752d1eaf444dfd6bff399feb0443977
+Total keys checked: 8786018304
+Time taken: 27.9503 seconds
+Average speed: 314.344 MK/s
+Bloom filter: addrs.bin (100 MB)
+
+[2025-11-20 05:48:33] Found: 1a96ca8d8 -> 4e15e5189752d1eaf444dfd6bff399feb0443977
+Total keys checked: 44040192
+Time taken: 0.176274 seconds
+Average speed: 249.839 MK/s
+Bloom filter: addrs.bin (100 MB)
+
+[2025-11-20 06:02:33] Found: 1ba534 -> 29a78213caa9eea824acf08022ab9dfc83414f56
+Total keys checked: 22020096
+Time taken: 0.103344 seconds
+Average speed: 213.075 MK/s
+Bloom filter: addrs.bin (100 MB)
+
+[2025-11-20 06:02:44] Found: 1a11dad76 -> ce77c0176d495796b8e84a7f866aec9ad1e61752
+Total keys checked: 22020096
+Time taken: 0.108049 seconds
+Average speed: 203.798 MK/s
+Bloom filter: addrs.bin (100 MB)
+
+[2025-11-20 06:02:58] Found: 1dc0c8723 -> 621dade6c07965a25192522fb554689e7bf0c351
+Total keys checked: 22020096
+Time taken: 0.104555 seconds
+Average speed: 210.607 MK/s
+Bloom filter: addrs.bin (100 MB)
+
+[2025-11-20 06:03:01] Found: 1d40ad463 -> d0c45a6d2eb4d962d9da3fa38ef7f1606db6c81d
+Total keys checked: 22020096
+Time taken: 0.106589 seconds
+Average speed: 206.589 MK/s
+Bloom filter: addrs.bin (100 MB)
+
+[2025-11-20 06:03:04] Found: 182f66864 -> c7ef8ae0b0ef09361f7c0d21f486a7ccf1495e8e
+Total keys checked: 22020096
+Time taken: 0.104746 seconds
+Average speed: 210.223 MK/s
+Bloom filter: addrs.bin (100 MB)
+
+[2025-11-20 06:03:06] Found: 1a9f26f60 -> 38d0e34f95e917db256c0950b322fa18f8bd5204
+Total keys checked: 22020096
+Time taken: 0.105732 seconds
+Average speed: 208.264 MK/s
+Bloom filter: addrs.bin (100 MB)
+
+[2025-11-20 06:14:46] Found: 1fc8e729f -> 3b76792993e34d0e7f40ecdb2750102ecf6df285
+Total keys checked: 22020096
+Time taken: 0.104798 seconds
+Average speed: 210.12 MK/s
+Bloom filter: addrs.bin (80.6336 MB)
+
+[2025-11-20 06:31:00] Found: 92631308da9ad259d3970ac956e5711ccceec9cddec241f8c41867a8924b6e92 -> 773b326ba20f2c16a7db4810b75c0ae72466a902
+Total keys checked: 748683264
+Time taken: 2.48433 seconds
+Average speed: 301.362 MK/s
+Bloom filter: addrs.bin (300 MB)
+
+[2025-11-20 06:40:14] Found: 1ba534 -> 29a78213caa9eea824acf08022ab9dfc83414f56
+Total keys checked: 22020096
+Time taken: 0.101895 seconds
+Average speed: 216.106 MK/s
+Bloom filter: addrs.bin (300 MB)
+
+[2025-11-20 06:40:26] Found: 1a96ca8d8 -> 4e15e5189752d1eaf444dfd6bff399feb0443977
+Total keys checked: 1805647872
+Time taken: 5.90036 seconds
+Average speed: 306.023 MK/s
+Bloom filter: addrs.bin (300 MB)
+
